@@ -1,4 +1,8 @@
+# Design identity, governance, and monitor solutions
+
 Governance ensures those rules and policies are enforced.
+
+Multiple passwords increase the likelihood of users reusing passwords or using weak passwords.
 
 - To make role assignments more manageable, avoid assigning roles directly to users. Instead, assign roles to groups. Assigning roles to groups helps minimize the number of role assignments.
 
@@ -67,4 +71,9 @@ Azure RBAC is an additive model, so your effective permissions are the sum of yo
 
 relationship between the blueprint definition (what should be deployed) and the blueprint assignment (what was deployed) is preserved
 
+## Azure AD
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-authentication-authorization-solutions/media/external-identities.png)
+
+Guest Users : Azure AD B2B 
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-authentication-authorization-solutions/media/business-to-business-guest-users.png)
 
