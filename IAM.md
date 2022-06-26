@@ -29,3 +29,11 @@ Manage and track costs for your organizational structure.ypes
 
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-governance/media/subscriptions-example.png)
 
+### Resource Group : 
+Place resources of similar usage, type, or location in logical groups.
+
+Organize resources by life cycle so all the resources can be created or deleted at the same time.
+
+Apply role permissions to a group of resources or give a group access to administer a group of resources.
+
+Use resource locks to protect individual resources from deletion or change.
