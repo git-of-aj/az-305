@@ -1,5 +1,7 @@
 Governance ensures those rules and policies are enforced.
 
+- To make role assignments more manageable, avoid assigning roles directly to users. Instead, assign roles to groups. Assigning roles to groups helps minimize the number of role assignments.
+
 It helps in Industry standards, such as information security management.
 - Corporate or organizational standards
 
@@ -45,3 +47,24 @@ ask yourself what you want to accomplish. Will the tags be used for reporting or
 [TAG EXAMPLES WITH DESCRIPTION](https://docs.microsoft.com/en-us/learn/modules/design-governance/6-design-for-resource-tags)
 
 Pro tip ☑ : Consider using Azure policy to apply tags and enforce tagging rules and conventions. Resource tagging is only effective if it’s used consistently across an organization. You can use Azure policy to require that certain tags be added to new resources as they're provisioned.
+
+### Azure Policy
+control or audit your resources. These policies enforce different rules over your resource configurations so that those configurations stay compliant with corporate standards.
+
+**Deny by exception -- Allow by default**
+
+### AZURE RBAC 
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-governance/media/role-definition-assignment-scope.png)
+
+RBAC decision Guide : 
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-governance/media/scope-role-matrix.png)
+
+**What in case of conflict : Exam Question --**
+Azure RBAC is an additive model, so your effective permissions are the sum of your role assignments. Consider a user is granted the Contributor role at the subscription scope and the Reader role on a resource group. The sum of the Contributor permissions and the Reader permissions is effectively the Contributor role for the subscription. Therefore, in this case, the Reader role assignment has no impact.
+
+## Azure Blueprint :
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-governance/media/azure-blueprints.png)
+
+relationship between the blueprint definition (what should be deployed) and the blueprint assignment (what was deployed) is preserved
+
+
