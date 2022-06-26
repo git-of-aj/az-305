@@ -74,6 +74,9 @@ relationship between the blueprint definition (what should be deployed) and the 
 ## Azure AD
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-authentication-authorization-solutions/media/external-identities.png)
 
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-authentication-authorization-solutions/media/application-registration.png)
+
 Guest Users : Azure AD B2B 
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-authentication-authorization-solutions/media/business-to-business-guest-users.png)
 
+[Risky Sign in detection](https://docs.microsoft.com/en-us/learn/modules/design-authentication-authorization-solutions/7-design-for-identity-protection)
