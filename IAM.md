@@ -37,3 +37,11 @@ Organize resources by life cycle so all the resources can be created or deleted 
 Apply role permissions to a group of resources or give a group access to administer a group of resources.
 
 Use resource locks to protect individual resources from deletion or change.
+
+[Resource-Group-Design-ideas+Properties](https://docs.microsoft.com/en-us/learn/modules/design-governance/5-design-for-resource-groups)
+
+## Tags : 
+ask yourself what you want to accomplish. Will the tags be used for reporting or billing? Perhaps you will use the tags to enable more effective searching? Maybe the tags will be used in automated scripts. Be sure to clearly define your goals.
+[TAG EXAMPLES WITH DESCRIPTION](https://docs.microsoft.com/en-us/learn/modules/design-governance/6-design-for-resource-tags)
+
+Pro tip ☑ : Consider using Azure policy to apply tags and enforce tagging rules and conventions. Resource tagging is only effective if it’s used consistently across an organization. You can use Azure policy to require that certain tags be added to new resources as they're provisioned.
