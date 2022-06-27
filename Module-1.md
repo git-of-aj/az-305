@@ -80,3 +80,10 @@ Guest Users : Azure AD B2B
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-authentication-authorization-solutions/media/business-to-business-guest-users.png)
 
 [Risky Sign in detection](https://docs.microsoft.com/en-us/learn/modules/design-authentication-authorization-solutions/7-design-for-identity-protection)
+
+## managed identities
+Managed identities eliminate the need for developers to manage credentials. Managed identities provide an identity for applications to use when connecting to resources that support Azure Active Directory (Azure AD) authentication.
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-authentication-authorization-solutions/media/use-managed-identities.png)
+
+#
