@@ -86,4 +86,12 @@ Managed identities eliminate the need for developers to manage credentials. Mana
 
 ![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-authentication-authorization-solutions/media/use-managed-identities.png)
 
-#
+# Azure Monitor
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-solution-to-log-monitor-azure-resources/media/data-sources.png)
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-solution-to-log-monitor-azure-resources/media/azure-monitor-tenant.png)
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/design-solution-to-log-monitor-azure-resources/media/azure-monitor-compute.png)
+
+You are using Azure and you want to avoid outbound data transfer charges by having a workspace in the same region as the Azure resources it manages
