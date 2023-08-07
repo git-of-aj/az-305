@@ -1,3 +1,8 @@
+## types of Azure SQL: https://learn.microsoft.com/en-us/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview?view=azuresql-db#azure-sql-database
+![image](https://github.com/Ananyojha/az-305/assets/76782360/bf9a82cd-968b-4f9a-9a13-8e41acf000a7)
+1. AZURE SQL DATABASE: A fully managed SQL Server database engine, based on the latest stable Enterprise Edition of SQL Server. SQL Database has two deployment options built on standardized hardware and software that is owned, hosted, and maintained by Microsoft. 2 OPTIONS FOR HOSTING --a. Instance b. ELASTIC POOL:An elastic pool, which is a collection of databases with a shared set of resources
+
+
 ## DTU vs Vcore Purchase Model => [MS DOCS](https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql-db#compare-vcore-and-dtu-purchasing-models)
 > choose the vCore-based model when you need fine-grained control over resources and performance for applications with varying workloads or high-demand periods. On the other hand, opt for the DTU-based model for more straightforward resource management and predictable workloads where you don't need to worry about specific resource configurations. The choice ultimately depends on your specific application requirements and the level of control you need over the underlying hardware resources.
 In Microsoft Azure SQL Database, you have two options for purchasing and configuring database resources: vCore-based and DTU-based purchasing models. Both models have their advantages and are suited for different use cases. Let's compare the two and provide a real industry use case for each:
