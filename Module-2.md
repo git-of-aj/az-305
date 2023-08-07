@@ -69,4 +69,4 @@ achieve four nines (99.99%), you can't rely on manual intervention to recover fr
 2. Hosting - range from fully serverless, where you only pay for execution time (Consumption plan), to always warm instances kept ready for fastest response times (Premium plan || have excess App Service hosting resources, you can host your functions in an existing App Service plan || Though having dedicated is GOOD
 3. **Durable FUnction** == Stateful Functions => https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=in-process%2Cv3-model%2Cv1-model&pivots=csharp
 
-4. 
+4. Comparison Power Automate vs logic apps - https://learn.microsoft.com/en-us/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs?toc=%2Fazure%2Fazure-functions%2Fdurable%2Ftoc.json#compare-microsoft-power-automate-and-azure-logic-apps
