@@ -54,10 +54,19 @@ Azure Batch is a cloud-based job scheduling service provided by Microsoft Azure,
 These are just a few examples of how Azure Batch can be used across different industries to handle large-scale, compute-intensive workloads efficiently. Its ability to scale seamlessly and manage complex computing tasks makes it a valuable tool for a wide range of applications.
 
 These examples illustrate how batch jobs are commonly used across various industries to efficiently process large volumes of data and automate routine tasks.
-
+=======================================================
 **SLA** : higher your SLA, the less frequently the service can go down and the quicker the service must recover.
 **Problem with HA**
 But as you strive for more nines, the cost and complexity grow 
 > 99.99% SLA = MAX 5 min total Downtime in a month
 
 achieve four nines (99.99%), you can't rely on manual intervention to recover from failures. The application must be self-diagnosing and self-healing.
+=========================================
+
+# Azure Fucntios
+1. When to use??
+ https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview?pivots=programming-language-csharp#scenarios
+2. Hosting - range from fully serverless, where you only pay for execution time (Consumption plan), to always warm instances kept ready for fastest response times (Premium plan || have excess App Service hosting resources, you can host your functions in an existing App Service plan || Though having dedicated is GOOD
+3. **Durable FUnction** == Stateful Functions => https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=in-process%2Cv3-model%2Cv1-model&pivots=csharp
+
+4. 
