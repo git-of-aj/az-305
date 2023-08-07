@@ -21,11 +21,11 @@ Sure! Here are some real industry examples of batch jobs:
 Azure Batch creates and manages a pool of compute nodes (virtual machines), installs the applications you want to run, and schedules jobs to run on the nodes. There's no cluster or job scheduler software to install, manage, or scale. Instead, you use Batch APIs and tools, command-line scripts, or the Azure portal to configure, manage, and monitor your jobs.
 
 ## concepts
-Job: Preparing a three-course dinner for your guests.|| A job is a collection of tasks. It manages how computation is performed by its tasks on the compute nodes in a pool (means group of computers)
-Tasks: Cooking the individual dishes like salad, main course, and dessert. || task represents a unit of computation => task runs one or more programs or scripts on a compute node to perform the work you need done. => Runs on a machine (NODE)
-Workflow: The recipe book guiding you through the cooking process.
-node: kitechen accesorries: A node is an Azure virtual machine (VM) or cloud service VM that is dedicated to processing a portion of your application's workload.
-Pools: Your kitchen appliances, utensils, and helpers that work together to prepare the meal. || A pool is the collection of nodes that your application runs on
+1. Job: Preparing a three-course dinner for your guests.|| A job is a collection of tasks. It manages how computation is performed by its tasks on the compute nodes in a pool (means group of computers)
+2. Tasks: Cooking the individual dishes like salad, main course, and dessert. || task represents a unit of computation => task runs one or more programs or scripts on a compute node to perform the work you need done. => Runs on a machine (NODE)
+3. Workflow: The recipe book guiding you through the cooking process.
+4. node: kitechen accesorries: A node is an Azure virtual machine (VM) or cloud service VM that is dedicated to processing a portion of your application's workload.
+5. Pools: Your kitchen appliances, utensils, and helpers that work together to prepare the meal. || A pool is the collection of nodes that your application runs on
 
 ## use cases
 Azure Batch is a cloud-based job scheduling service provided by Microsoft Azure, designed to run large-scale parallel and high-performance computing (HPC) workloads efficiently. It can be used in various industries to solve compute-intensive tasks, process large datasets, and optimize resource utilization. Here are some real industry use cases of Azure Batch:
