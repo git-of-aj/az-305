@@ -64,3 +64,21 @@ In this pizza delivery scenario, messages are used to share order details, queue
    In serverless computing, where functions are executed in response to events, messages and events are essential. Services like AWS Lambda or Azure Functions use events to trigger function execution based on certain conditions.
 
 In all of these use cases, the underlying concept of messages, queues, and events remains the same: enabling communication, coordination, and asynchronous processing. While these concepts can greatly benefit microservices-based applications, their utility extends far beyond that specific architecture.
+
+## service bus
+[basics of Msg, Queue and Service bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+[storage queue vs service bus queue](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted#foundational-capabilities)
+
+> Azure Event Hub is for gathering and organizing lots of data quickly, like stories at a party.
+Azure Service Bus is for reliably sending messages between different parts of a software system, like a super mailman for your digital applications.
+## event hub
+use Event Hubs to ingest millions of events per second from connected devices and applications.
+- Data is valuable only when there's an easy way to process and get timely insights from data sources. Event Hubs provides a distributed stream processing platform with low latency and seamless integration, with data and analytics services inside and outside Azure to build your complete big data pipeline.
+
+Event Hubs represents the "front door" for an event pipeline, often called an event ingestor in solution architectures
+
+## event grid
+Azure Event Grid to react to relevant events across both Azure and non-Azure services in near-real time fashion.
+- fully managed Pub Sub message distribution service that offers flexible message consumption patterns using the MQTT and HTTP protocols.
+- https://learn.microsoft.com/en-us/azure/event-grid/overview
+
