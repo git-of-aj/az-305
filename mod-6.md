@@ -82,3 +82,16 @@ Azure Event Grid to react to relevant events across both Azure and non-Azure ser
 - fully managed Pub Sub message distribution service that offers flexible message consumption patterns using the MQTT and HTTP protocols.
 - https://learn.microsoft.com/en-us/azure/event-grid/overview
 
+## slide 
+Putting all together:
+![image](https://github.com/Ananyojha/az-305/assets/76782360/76ee937c-2380-4ead-9b65-22dd1b124546)
+
+Azure service	Purpose	Message or Event	Usage scenario
+Azure Event Grid	Reactive programming	Event distribution (discrete)	React to status changes 💡
+Azure Event Hubs	Big data pipeline	Event streaming (series)	Conduct telemetry and distributed data streaming 💡
+Azure Service Bus	High-value enterprise messaging	Message	Fulfill order processing and financial transactions
+
+- Reactive programming is an approach to building systems that respond to events and changes as they happen. VS Imperative : YOu specify the Sequence of events
+- **EVENT GRID VS EVENT HUB**
+- Azure Event Grid, on the other hand, is more focused on event routing and triggering reactive actions across different services. It's designed for scenarios where you want to react to events in near real-time, but it doesn't have the same high-throughput capabilities as Event Hub. It's often used for building event-driven architectures that involve triggering actions or updates in response to specific events.
+- Azure Event Hub is a data streaming platform that is designed specifically for ingesting and processing large volumes of real-time event data.
