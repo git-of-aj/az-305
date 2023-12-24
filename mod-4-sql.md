@@ -56,3 +56,9 @@ In Microsoft Azure SQL Database, you have two options for purchasing and configu
    - When there's a need for a dedicated instance with predictable performance characteristics.
 
 In summary, choose Azure SQL Database for cloud-native applications with dynamic workloads, and opt for Azure SQL Managed Instance when compatibility with specific SQL Server features and a dedicated instance are critical to your application's requirements.
+
+------------------------
+
+## ADF 
+Azure Data Factory is a managed cloud service that's built for these complex hybrid extract-transform-load (ETL), extract-load-transform (ELT), and data integration projects
+- [DOCS](https://learn.microsoft.com/en-us/azure/data-factory/introduction)
