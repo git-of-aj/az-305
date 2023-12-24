@@ -22,3 +22,8 @@ In Microsoft Azure SQL Database, you have two options for purchasing and configu
 
    Real Industry Use Case: Blogging Website
    A blogging website with a stable and steady audience experiences consistent traffic throughout the day. The website's resource requirements are not highly variable, and the workload is relatively predictable. The DTU-based model allows the website owner to choose a DTU level that matches the average workload, ensuring adequate performance without the need to fine-tune resource configurations. This simplicity and ease of management are suitable for this scenario.
+
+## Scaling Options
+1. SQL elastic database pools:
+- The databases in an elastic pool are on a single server and share a set number of resources at a set price.
+- [MS DOCS](https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql)
