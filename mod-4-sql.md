@@ -27,3 +27,32 @@ In Microsoft Azure SQL Database, you have two options for purchasing and configu
 1. SQL elastic database pools:
 - The databases in an elastic pool are on a single server and share a set number of resources at a set price.
 - [MS DOCS](https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql)
+
+## AZURE SQL vs Azure SQL Managed Instance
+**Key Differences:**
+
+1. **Service Model:**
+   - *Azure SQL Database:* Multi-tenant database service designed for cloud-native applications.
+   - *Azure SQL Managed Instance:* Offers a dedicated, isolated instance with compatibility for on-premises SQL Server.
+
+2. **Isolation and Compatibility:**
+   - *Azure SQL Database:* Provides a shared environment with automatic scaling and tuning, suitable for modern cloud applications.
+   - *Azure SQL Managed Instance:* Offers a dedicated instance, ensuring higher isolation and compatibility with on-premises SQL Server features.
+
+3. **Feature Set:**
+   - *Azure SQL Database:* Optimized for cloud-native scenarios with features like automatic tuning and serverless options.
+   - *Azure SQL Managed Instance:* Supports additional SQL Server features, such as SQL Server Agent, cross-database queries, and CLR assemblies.
+
+**Use Cases:**
+
+1. *Azure SQL Database:*
+   - Ideal for cloud-native applications with varying workloads.
+   - Well-suited for scenarios where automatic scaling and tuning are crucial.
+   - Cost-effective for applications with dynamic resource requirements.
+
+2. *Azure SQL Managed Instance:*
+   - Best for applications with dependencies on specific SQL Server features not available in Azure SQL Database.
+   - Suitable for scenarios requiring a higher degree of isolation, resembling on-premises SQL Server.
+   - When there's a need for a dedicated instance with predictable performance characteristics.
+
+In summary, choose Azure SQL Database for cloud-native applications with dynamic workloads, and opt for Azure SQL Managed Instance when compatibility with specific SQL Server features and a dedicated instance are critical to your application's requirements.
